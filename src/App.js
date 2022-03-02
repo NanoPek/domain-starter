@@ -11,8 +11,8 @@ import { networks } from './utils/networks';
 import toast, { Toaster } from 'react-hot-toast';
 
 
-const tld = '.weeb';
-const CONTRACT_ADDRESS = '0xb630B66FaafcEfC9697a34db63abbf6B37094097';
+const tld = '.kirby';
+const CONTRACT_ADDRESS = '0x78cEc60Bf1DA51590DEE4bF33Ee0Bc2454dD39Fd';
 
 // Constants
 const TWITTER_HANDLE = 'nanoPekTo';
@@ -258,7 +258,7 @@ const App = () => {
 		if (network !== 'Polygon Mumbai Testnet') {
 			return (
 				<div className="connect-wallet-container">
-					<img src={"https://weebtrash.ga/wp-content/uploads/2020/04/tenor-2-1.gif" } alt=''/>
+					<img src={"https://c.tenor.com/0g5xkgNtWb8AAAAC/hunt-food.gif" } alt=''/>
 					<p className={"change-network-text"}>Please connect to the Polygon Mumbai Testnet</p>
 					<button className='cta-button mint-button' onClick={switchNetwork}>Click here to switch</button>
 				</div>
@@ -373,7 +373,7 @@ const App = () => {
 				<div className="header-container">
 					<header>
 						<div className="left">
-							<p className="title">🍣 Weeb Domain Service</p>
+							<p className="title">🐱‍🐉 Kirby Domain Service</p>
 							<p className="subtitle">Your immortal API on the blockchain!</p>
 						</div>
 						{/* Display a logo and wallet connection status*/}
