@@ -18,7 +18,7 @@ const CONTRACT_ADDRESS = '0x78cEc60Bf1DA51590DEE4bF33Ee0Bc2454dD39Fd';
 const TWITTER_HANDLE = 'nanoPekTo';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const REPO_LINK = `https://github.com/NanoPek/domain-starter`;
-const OPENSEA_LINK = `https://testnets.opensea.io/collection/weeb-domain-service-kkhx78kijr`;
+const OPENSEA_LINK = `https://testnets.opensea.io/collection/kirby-domain-service`;
 
 
 
@@ -180,7 +180,7 @@ const App = () => {
 	// Create a function to render if wallet is not connected yet
 	const renderNotConnectedContainer = () => (
 		<div className="connect-wallet-container">
-			<img src="https://c.tenor.com/ZbraeF5BI7kAAAAC/anime-zero-two.gif" alt="ZeroTwo gif" />
+			<img src="https://c.tenor.com/8eKNac12BOwAAAAC/kirby-happy.gif" alt="Kirby gif" />
 			<button onClick={connectWallet} className="cta-button connect-wallet-button">
 				Connect Wallet
 			</button>
